@@ -16,7 +16,7 @@
       "name": "pirates"
     },
     {
-      "fileId":"1z4524rEc2nWtUnsg4ufvZjihBhm2cZ4ueQ8djkPZmkg",
+      "fileId": "1z4524rEc2nWtUnsg4ufvZjihBhm2cZ4ueQ8djkPZmkg",
       "type": "doc",
       "name": "blog"
     }
@@ -28,6 +28,13 @@
       "array": "books",
       "slug": "slug",
       "path": "books"
+    },
+    {
+      "template": "bake-blog",
+      "data": "blog",
+      "array": "blogs",
+      "slug": "slug",
+      "path": "blog"
     }
   ]
 }

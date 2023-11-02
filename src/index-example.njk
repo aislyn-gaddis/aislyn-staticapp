@@ -24,7 +24,7 @@
   {% for store in bookstores.stores %}
     <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
     <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
-    <hr>
+  <hr>
   {% endfor %}
 </div>
 {% endblock %}
